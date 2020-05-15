@@ -1,0 +1,274 @@
+
+
+
+/*----------BIG-TABLETS-TO-1200PX(for widths smaller than the 1140px row)----------*/
+@media only screen and (max-width: 1200px) {
+
+    .hero-text-box {
+        width: 100%;
+        padding: 0 5%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+}
+
+
+/*----------SMALL-TABLETS-TO-BIG-TABLETS(768PX-1023PX)----------*/
+@media only screen and (max-width: 1023px) {
+
+    body {
+        font-size: 90%;
+    }
+
+    section {
+        padding: 50px 0;
+    }
+
+    .main-nav li {
+        margin-left: 20px;
+    }
+
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .box p {
+        padding: 5%;
+    }
+
+    .works-steps {
+        margin-bottom: 40px;
+    }
+
+        .works-steps:last-of-type {
+            margin-bottom: 60px;
+        }
+
+        .works-steps div {
+            margin-left: 0;
+        }
+
+    .steps-box {
+        margin-top: 10px;
+    }
+
+        .steps-box:last-child {
+            margin-top: 50px;
+        }
+
+    .span-1-of-2 img[alt=iPhone] {
+        width: 45%;
+    }
+
+    .btn-app img {
+        width: 30%;
+    }
+
+    .section-cities {
+        font-size: 95%;
+    }
+
+    .city-feature i {
+        width: 15px;
+        margin-right: 0;
+    }
+
+    .plan-box {
+        width: 92%;
+        margin-left: 4%;
+        font-size: 90%;
+    }
+
+    .contact-form {
+        width: 80%;
+    }
+
+    .footer-nav li {
+        margin: 5px 7px;
+    }
+
+    footer p {
+        margin-top: 30px;
+    }
+}
+
+/*----------SMALL-PHONES-TO-SMALL-TABLETS-(481PX-767PX)----------*/
+@media only screen and (max-width: 767px) {
+
+    body {
+        font-size: 80%;
+    }
+
+    h2 {
+        font-size: 160%;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+
+    .row,
+    .hero-text-box {
+        padding: 0 5%;
+    }
+
+    .col {
+        width: 100%;
+        margin: 0 0 3% 0;
+    }
+
+    .long-copy {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-bottom: 20px;
+    }
+
+    .span-1-of-2 img[alt=iPhone] {
+        width: 30%;
+        margin: 0 35%;
+    }
+
+    .btn-app img {
+        width: 25%;
+    }
+
+    .steps-box:first-child {
+        padding-right: 0;
+        margin-top: 30px;
+    }
+
+    .steps-box:last-child {
+        padding-left: 3%;
+        margin-top: 20px;
+    }
+
+    .works-steps {
+        margin-bottom: 30px;
+    }
+
+        .works-steps:last-of-type {
+            margin-bottom: 40px;
+        }
+
+    .section-cities img {
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .section-cities h3 {
+        font-size: 150%;
+    }
+
+    .city-feature {
+        font-size: 120%;
+    }
+
+    .section-customers {
+        background-size: cover;
+        background-position: center;
+        height: 150vh;
+        background-attachment: fixed;
+    }
+
+    blockquote {
+        padding: 5%;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    .section-customers img {
+        width: 7%;
+    }
+
+    /* Navigation */
+
+    .main-nav {
+        display: none;
+        float: left;
+        margin-top: 20px;
+    }
+
+        .main-nav li {
+            display: block;
+            font-size: 110%;
+        }
+
+            .main-nav li a:link,
+            .main-nav li a:visited {
+                display: block;
+                border: 0;
+            }
+
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+
+    .sticky .mobile-nav-icon i {
+        color: #555;
+    }
+}
+
+
+/*----------SMALL-PHONES-(381PX-480PX)----------*/
+@media only screen and (max-width: 480px) and (min-width: 381px) {
+
+    .hero-text-box {
+        margin-top: 40px;
+    }
+
+        .hero-text-box h1 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+    section {
+        padding: 25px 0;
+    }
+
+    .section-customers{
+        height: 180vh;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+}
+
+/*----------SMALLER-PHONES-(0-380PX)----------*/
+@media only screen and (max-width: 380px) {
+
+    .logo {
+        height: 60px;
+    }
+
+    .hero-text-box {
+        margin-top: 50px;
+    }
+
+        .hero-text-box h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .hero-text-box .js--scroll-to-features {
+            display: none;
+        }
+
+    .section-customers {
+        height: 210vh;
+    }
+
+    .section-contact .contact-form input{
+        margin-bottom: 10px;
+    }
+
+    footer .footer-nav{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
