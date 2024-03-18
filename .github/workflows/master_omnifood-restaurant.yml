@@ -22,7 +22,7 @@ jobs:
           name: node-app
           path: |
             index.html
-            /resources
+            resources
 
   deploy:
     runs-on: ubuntu-latest
