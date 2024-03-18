@@ -20,7 +20,9 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: node-app
-          path: .
+          path: |
+            index.html
+            /resources
 
   deploy:
     runs-on: ubuntu-latest
