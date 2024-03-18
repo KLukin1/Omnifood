@@ -23,6 +23,7 @@ jobs:
           path: |
             index.html
             resources
+            vendors
 
   deploy:
     runs-on: ubuntu-latest
